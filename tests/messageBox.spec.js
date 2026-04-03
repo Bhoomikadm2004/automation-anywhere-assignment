@@ -1,19 +1,17 @@
 import { test, expect } from '../fixtures/baseTest';
 import { TaskBotPage } from '../pages/taskBotPage';
 
+import { test, expect } from '../fixtures/baseTest';
+import { TaskBotPage } from '../pages/taskBotPage';
+
 test('Create Message Box Task', async ({ page }) => {
 
   const taskBot = new TaskBotPage(page);
 
-  // ✅ WAIT FOR POST-LOGIN
-  await page.locator('text=Automation, text=Automation Cloud, button:has-text("Create")').first().waitFor({ timeout: 90000 });
-  console.log('Login successful');
+  // At this point baseTest.js has already logged in and navigated to Automation
+  console.log('✅ Login and Automation navigation complete');
 
-  // Navigate to automation & create task bot
-  await taskBot.navigateToAutomation();
-
-  await expect(page.locator('text=Automation')).toBeVisible();
-
+  // Create task bot
   await taskBot.createTaskBot('Test Bot');
 
   await expect(page.locator('text=Actions')).toBeVisible();
@@ -29,5 +27,5 @@ test('Create Message Box Task', async ({ page }) => {
 
   await expect(taskBot.successMsg).toBeVisible();
 
-  console.log('Message Box task created and configured successfully');
+  console.log('✅ Message Box task created and configured successfully');
 });

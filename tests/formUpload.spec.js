@@ -6,12 +6,10 @@ test('Form Upload Flow (Use Case 2)', async ({ page }) => {
 
   const formPage = new FormPage(page);
 
-  // ✅ WAIT FOR POST-LOGIN SCREEN OR CREATE BUTTON
-  await page.locator('text=Automation, text=Automation Cloud, button:has-text("Create")').first().waitFor({ timeout: 90000 });
+  // At this point, baseTest.js has already logged in and navigated to Automation page
+  console.log('✅ Login and Automation navigation complete, URL:', await page.url());
 
-  console.log('Login successful, page loaded:', await page.url());
-
-  // Create form (this method navigates to Automation too)
+  // Create form
   await formPage.createForm('Test Form');
 
   // Add elements to canvas by drag and drop
