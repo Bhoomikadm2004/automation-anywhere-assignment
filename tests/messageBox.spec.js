@@ -1,9 +1,6 @@
 import { test, expect } from '../fixtures/baseTest';
 import { TaskBotPage } from '../pages/taskBotPage';
 
-import { test, expect } from '../fixtures/baseTest';
-import { TaskBotPage } from '../pages/taskBotPage';
-
 test('Create Message Box Task', async ({ page }) => {
 
   const taskBot = new TaskBotPage(page);
@@ -12,7 +9,8 @@ test('Create Message Box Task', async ({ page }) => {
   console.log('✅ Login and Automation navigation complete');
 
   // Create task bot
-  await taskBot.createTaskBot('Test Bot');
+  const botName = `TestBot_${Date.now()}`;
+  await taskBot.createTaskBot(botName);
 
   await expect(page.locator('text=Actions')).toBeVisible();
 

@@ -12,10 +12,563 @@
 # Error details
 
 ```
-Error: locator.waitFor: Target page, context or browser has been closed
-Call log:
-  - waiting for locator('text=Automation, text=Automation Cloud, button:has-text("Create")').first() to be visible
+Error: expect(locator).toBeVisible() failed
 
+Locator: locator('text=Message Box')
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for locator('text=Message Box')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner
+      - generic [ref=e5]:
+        - navigation [ref=e7]:
+          - img "Community Edition"
+          - img "Community Edition"
+          - img "Community Edition"
+          - navigation [ref=e8]:
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - link "Explore" [ref=e11] [cursor=pointer]:
+                  - /url: "#/home"
+                  - generic "Explore" [ref=e14]: 
+                  - generic [ref=e15]: Explore
+              - listitem [ref=e16]:
+                - link "Home" [ref=e17] [cursor=pointer]:
+                  - /url: "#/dashboard"
+                  - generic "Home" [ref=e20]: 
+                  - generic [ref=e21]: Home
+              - listitem [ref=e22]:
+                - link "Automation" [ref=e23] [cursor=pointer]:
+                  - /url: "#/bots/repository"
+                  - generic "Automation" [ref=e26]: 
+                  - generic [ref=e27]: Automation
+              - listitem [ref=e28]:
+                - button "AI" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e32]: 
+                  - generic [ref=e34]: 
+                  - generic [ref=e35]: AI
+                - list:
+                  - listitem [ref=e36]:
+                    - link "Document Automation" [ref=e37] [cursor=pointer]:
+                      - /url: "#/modules/cognitive/iqbot/pages/learning-instances"
+                      - generic [ref=e39]: Document Automation
+              - listitem [ref=e40]:
+                - button "Activity" [ref=e41] [cursor=pointer]:
+                  - generic [ref=e44]: 
+                  - generic "Activity" [ref=e46]: 
+                  - generic [ref=e47]: Activity
+                - list:
+                  - listitem [ref=e48]:
+                    - link "In progress" [ref=e49] [cursor=pointer]:
+                      - /url: "#/activity/inprogress"
+                      - generic [ref=e51]: In progress
+                  - listitem [ref=e52]:
+                    - link "Historical" [ref=e53] [cursor=pointer]:
+                      - /url: "#/activity/historical"
+                      - generic [ref=e55]: Historical
+                  - listitem
+                  - listitem [ref=e56]:
+                    - link "Insights" [ref=e57] [cursor=pointer]:
+                      - /url: /botinsight/
+                      - generic [ref=e59]: Insights
+                      - generic "Open in new window" [ref=e60]: 
+              - listitem [ref=e61]:
+                - button "Manage" [ref=e62] [cursor=pointer]:
+                  - generic [ref=e65]: 
+                  - generic "Manage" [ref=e67]: 
+                  - generic [ref=e68]: Manage
+                - list:
+                  - listitem [ref=e69]:
+                    - link "Devices" [ref=e70] [cursor=pointer]:
+                      - /url: "#/devices/mydevices"
+                      - generic [ref=e72]: Devices
+                  - listitem
+                  - listitem [ref=e73]:
+                    - link "Global values" [ref=e74] [cursor=pointer]:
+                      - /url: "#/bots/globalvalues"
+                      - generic [ref=e76]: Global values
+                  - listitem [ref=e77]:
+                    - link "Credentials" [ref=e78] [cursor=pointer]:
+                      - /url: "#/bots/credentials"
+                      - generic [ref=e80]: Credentials
+                  - listitem [ref=e81]:
+                    - link "Packages" [ref=e82] [cursor=pointer]:
+                      - /url: "#/bots/packages"
+                      - generic [ref=e84]: Packages
+              - listitem [ref=e85]:
+                - button "Administration" [ref=e86] [cursor=pointer]:
+                  - generic [ref=e89]: 
+                  - generic "Administration" [ref=e91]: 
+                  - generic [ref=e92]: Administration
+                - list:
+                  - listitem [ref=e93]:
+                    - link "Users" [ref=e94] [cursor=pointer]:
+                      - /url: "#/admin/users"
+                      - generic [ref=e96]: Users
+          - navigation [ref=e97]:
+            - button "BC bhoomikadm2004@gmail.com" [ref=e100] [cursor=pointer]:
+              - generic [ref=e104]: BC
+              - generic [ref=e105]: bhoomikadm2004@gmail.com
+            - generic [ref=e106]:
+              - button "" [ref=e108] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - generic "Help center": 
+              - button "Device Settings" [ref=e111] [cursor=pointer]:
+                - generic [ref=e112]:
+                  - img "Device Settings":
+                    - generic: 
+                    - generic:
+                      - generic:
+                        - img
+              - button "Expand" [ref=e113] [cursor=pointer]
+        - generic [ref=e114]:
+          - banner [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e118]: 
+              - generic [ref=e119]:
+                - link "Upgrade to Enterprise" [ref=e120] [cursor=pointer]:
+                  - /url: https://info.automationanywhere.com/community-edition-upgrade.html
+                - generic "Open in new window" [ref=e121]: 
+                - text: Advanced automation capabilities to unleash your organization’s full potential.
+              - generic [ref=e123] [cursor=pointer]: 
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - generic [ref=e131]:
+                  - generic:
+                    - generic:
+                      - button "":
+                        - generic: 
+                  - generic [ref=e133]:
+                    - generic [ref=e134]:
+                      - generic [ref=e136]:
+                        - generic [ref=e137]: 
+                        - generic [ref=e139]: TestBot_1775210165396
+                      - generic: …
+                    - generic [ref=e141]: New
+                    - button "Edit" [ref=e143] [cursor=pointer]:
+                      - generic [ref=e144]: 
+                - generic [ref=e146]:
+                  - generic [ref=e148]:
+                    - generic:
+                      - generic:
+                        - button "Assistant" [ref=e152] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e154]: Assistant
+                        - button "Co-Pilot" [ref=e158] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e160]: Co-Pilot
+                        - button "Run" [ref=e165] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e167]: Run
+                        - button "Debug" [ref=e171] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e173]: Debug
+                        - button "Run-time options" [ref=e178] [cursor=pointer]:
+                          - generic [ref=e179]: 
+                    - button "" [ref=e185] [cursor=pointer]:
+                      - generic [ref=e186]: 
+                  - generic [ref=e187]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Assistant" [ref=e191] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Co-Pilot" [ref=e195] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Run" [ref=e200] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Debug" [ref=e204] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Run-time options" [ref=e209] [cursor=pointer]:
+                            - generic [ref=e210]: 
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "":
+                                - generic: 
+              - generic [ref=e212]:
+                - button "Close" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e216]: Close
+                - generic [ref=e217]:
+                  - button "Save" [ref=e218]:
+                    - generic [ref=e220]: Save
+                  - button "" [ref=e221] [cursor=pointer]:
+                    - generic [ref=e222]: 
+            - generic [ref=e230]:
+              - generic [ref=e232]:
+                - generic [ref=e234]:
+                  - banner [ref=e235] [cursor=pointer]:
+                    - button "Variables" [ref=e237]:
+                      - generic [ref=e238]:
+                        - generic [ref=e240]: Variables
+                        - generic: Show
+                  - generic [ref=e241]:
+                    - generic [ref=e242]:
+                      - button " Your variables" [expanded] [ref=e243] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                        - generic [ref=e245]: Your variables
+                      - generic [ref=e246]:
+                        - button " SampleNumber" [ref=e249]:
+                          - generic [ref=e251]: 
+                          - generic [ref=e253]: SampleNumber
+                        - button " SampleString" [ref=e256]:
+                          - generic [ref=e258]: 
+                          - generic [ref=e260]: SampleString
+                    - generic [ref=e261]:
+                      - button "Predefined variables" [ref=e262]:
+                        - generic:
+                          - generic: Predefined variables
+                      - generic [ref=e263]:
+                        - button " A2019DemoPackage" [ref=e265] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e267]: A2019DemoPackage
+                        - button " A2019DemoPackage" [ref=e269] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e271]: A2019DemoPackage
+                        - button " Clipboard" [ref=e273] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e275]: Clipboard
+                        - button " String" [ref=e277] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e279]: String
+                        - button " System" [ref=e281] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e283]: System
+                - banner [ref=e286]:
+                  - button "Actions" [expanded] [ref=e288]:
+                    - generic [ref=e289]:
+                      - generic [ref=e291]: Actions
+                      - generic: Show
+                  - generic [ref=e293]:
+                    - textbox "Clear" [active] [ref=e294]:
+                      - /placeholder: Search actions
+                      - text: Hello from Automation Anywhere Test!
+                    - button "Clear" [ref=e296] [cursor=pointer]:
+                      - generic [ref=e297]: 
+                - generic [ref=e301]:
+                  - banner [ref=e302] [cursor=pointer]:
+                    - button "Triggers" [ref=e304]:
+                      - generic [ref=e305]:
+                        - generic [ref=e307]: Triggers
+                        - generic: Show
+                  - generic [ref=e308]:
+                    - button " A2019DemoPackage" [ref=e310] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e312]: A2019DemoPackage
+                    - button " A2019DemoPackage" [ref=e314] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e316]: A2019DemoPackage
+                    - button " Email trigger" [ref=e318] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e320]: Email trigger
+                    - button " Files & folders" [ref=e322] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e324]: Files & folders
+                    - button " Hot key" [ref=e326] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e328]: Hot key
+                    - button " Interface trigger" [ref=e330] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e332]: Interface trigger
+                    - button " Microsoft 365 Outlook Trigger" [ref=e334] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e336]: Microsoft 365 Outlook Trigger
+                    - button " Process trigger" [ref=e338] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e340]: Process trigger
+                    - button " Service trigger" [ref=e342] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e344]: Service trigger
+                    - button " ServiceNow" [ref=e346] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e348]: ServiceNow
+                    - button " Window trigger" [ref=e350] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e352]: Window trigger
+              - button "Toggle palette" [expanded] [ref=e355] [cursor=pointer]:
+                - generic:
+                  - generic: 
+              - generic [ref=e357]:
+                - generic [ref=e360]:
+                  - generic [ref=e361]:
+                    - region "Keyboard focus boundary"
+                    - button "Start recording…" [ref=e362] [cursor=pointer]:
+                      - generic [ref=e363]: 
+                    - region "Keyboard focus boundary"
+                    - button "Find a file…" [ref=e365] [cursor=pointer]:
+                      - generic [ref=e366]: 
+                    - region "Keyboard focus boundary"
+                    - button "Search in this automation" [ref=e367] [cursor=pointer]:
+                      - generic [ref=e368]: 
+                    - region "Keyboard focus boundary"
+                    - button "Undo" [ref=e370]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Redo" [ref=e371]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Copy items" [ref=e373]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Cut items" [ref=e374]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Paste items" [ref=e375]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Remove items" [ref=e376]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Copy to shared clipboard" [ref=e378]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Paste from shared clipboard" [ref=e379]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Clear all breakpoints" [ref=e381]:
+                      - generic: 
+                  - tablist [ref=e383]:
+                    - tab "Flow" [selected] [ref=e384]
+                    - tab "List" [ref=e385] [cursor=pointer]
+                    - tab "Dual" [ref=e386] [cursor=pointer]
+                - generic [ref=e390]:
+                  - img
+                  - generic [ref=e392]:
+                    - generic:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e393]: Triggers
+                      - generic: Drag a trigger here…
+                    - generic:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e394]: Start
+                      - generic:
+                        - generic: Drag an action here or
+                      - button "Quick add" [ref=e396] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e397]: End
+                  - generic [ref=e398]:
+                    - region "Keyboard focus boundary"
+                    - button "Zoom fit" [ref=e399] [cursor=pointer]:
+                      - generic [ref=e400]: 
+                    - region "Keyboard focus boundary"
+                    - button "Zoom out" [ref=e401] [cursor=pointer]:
+                      - generic [ref=e402]: 
+                    - region "Keyboard focus boundary"
+                    - button "Zoom in" [ref=e403]:
+                      - generic: 
+                - generic [ref=e405]: Windows
+              - button "Toggle details" [expanded] [ref=e408] [cursor=pointer]:
+                - generic:
+                  - generic: 
+              - generic [ref=e410]:
+                - banner [ref=e411]:
+                  - generic [ref=e414]: Action details
+                - generic [ref=e416]: Select an action in the flow or list view to edit details
+    - generic:
+      - tooltip "Search in this automation ctrl F":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Search in this automation
+              - generic "ctrl F":
+                - generic: ctrl
+                - generic: F
+        - img
+      - tooltip "New":
+        - generic:
+          - generic: New
+        - img
+      - tooltip "New":
+        - generic:
+          - generic: New
+        - img
+      - tooltip "Run-time options":
+        - generic:
+          - generic: Run-time options
+        - img
+      - tooltip "Assistant":
+        - generic:
+          - generic: Assistant
+        - img
+      - tooltip "Co-Pilot":
+        - generic:
+          - generic: Co-Pilot
+        - img
+      - tooltip "Run":
+        - generic:
+          - generic: Run
+        - img
+      - tooltip "Debug":
+        - generic:
+          - generic: Debug
+        - img
+      - tooltip "Run-time options":
+        - generic:
+          - generic: Run-time options
+        - img
+      - tooltip "Undo ctrl Z":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Undo
+              - generic "ctrl Z":
+                - generic: ctrl
+                - generic: Z
+        - img
+      - tooltip "Redo ctrl Y":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Redo
+              - generic "ctrl Y":
+                - generic: ctrl
+                - generic: "Y"
+        - img
+      - tooltip "Copy items ctrl C":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Copy items
+              - generic "ctrl C":
+                - generic: ctrl
+                - generic: C
+        - img
+      - tooltip "Cut items ctrl X":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Cut items
+              - generic "ctrl X":
+                - generic: ctrl
+                - generic: X
+        - img
+      - tooltip "Paste items ctrl V":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Paste items
+              - generic "ctrl V":
+                - generic: ctrl
+                - generic: V
+        - img
+      - tooltip "Remove items delete":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Remove items
+              - generic "delete":
+                - generic: delete
+        - img
+      - tooltip "Copy to shared clipboard":
+        - generic:
+          - generic: Copy to shared clipboard
+        - img
+      - tooltip "Paste from shared clipboard":
+        - generic:
+          - generic: Paste from shared clipboard
+        - img
+      - tooltip "Clear all breakpoints shift F9":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Clear all breakpoints
+              - generic "shift F9":
+                - generic: shift
+                - generic: F9
+        - img
+      - tooltip "Zoom fit":
+        - generic:
+          - generic: Zoom fit
+        - img
+      - tooltip "Zoom out":
+        - generic:
+          - generic: Zoom out
+        - img
+      - tooltip "Zoom in":
+        - generic:
+          - generic: Zoom in
+        - img
+      - tooltip "Edit":
+        - generic:
+          - generic: Edit
+        - img
+      - tooltip "Edit":
+        - generic:
+          - generic: Edit
+        - img
+      - tooltip "Start recording… ctrl shift R":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Start recording…
+              - generic "ctrl shift R":
+                - generic: ctrl
+                - generic: shift
+                - generic: R
+        - img
+      - tooltip "Find a file… F3":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Find a file…
+              - generic "F3":
+                - generic: F3
+        - img
+      - tooltip "Quick add":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Quick add
+        - img
+      - tooltip "Clear":
+        - generic:
+          - generic: Clear
+        - img
+  - button "Open Resource Center, 9 new notification" [ref=e417] [cursor=pointer]:
+    - generic [ref=e419]: "9"
 ```
 
 # Test source
@@ -28,49 +581,27 @@ Call log:
   5  | 
   6  |   const taskBot = new TaskBotPage(page);
   7  | 
-  8  |   // ✅ WAIT FOR POST-LOGIN
-> 9  |   await page.locator('text=Automation, text=Automation Cloud, button:has-text("Create")').first().waitFor({ timeout: 90000 });
-     |                                                                                                   ^ Error: locator.waitFor: Target page, context or browser has been closed
-  10 |   console.log('Login successful');
-  11 | 
-  12 |   // Navigate to automation & create task bot
-  13 |   await taskBot.navigateToAutomation();
+  8  |   // At this point baseTest.js has already logged in and navigated to Automation
+  9  |   console.log('✅ Login and Automation navigation complete');
+  10 | 
+  11 |   // Create task bot
+  12 |   const botName = `TestBot_${Date.now()}`;
+  13 |   await taskBot.createTaskBot(botName);
   14 | 
-  15 |   console.log('Checking if Create button is visible...');
-  16 |   await expect(page.locator('button:has-text("Create")')).toBeVisible({ timeout: 10000 });
-  17 | 
-  18 |   console.log('Clicking Create button...');
-  19 |   await page.locator('button:has-text("Create")').click();
+  15 |   await expect(page.locator('text=Actions')).toBeVisible();
+  16 | 
+  17 |   // Add Message Box action with configuration
+  18 |   const testMessage = 'Hello from Automation Anywhere Test!';
+  19 |   await taskBot.addMessageBoxAction(testMessage);
   20 | 
-  21 |   console.log('Looking for Task Bot option...');
-  22 |   await expect(page.locator('text=Task Bot')).toBeVisible({ timeout: 10000 });
+  21 |   // Verify the message box action was added to the canvas
+> 22 |   await expect(page.locator('text=Message Box')).toBeVisible();
+     |                                                  ^ Error: expect(locator).toBeVisible() failed
   23 | 
-  24 |   console.log('Selecting Task Bot...');
-  25 |   await page.locator('text=Task Bot').click();
-  26 | 
-  27 |   console.log('Waiting for Task Bot creation form...');
-  28 |   await expect(page.locator('input[name="name"]')).toBeVisible({ timeout: 10000 });
-  29 | 
-  30 |   console.log('Filling bot name...');
-  31 |   await page.locator('input[name="name"]').fill('Test Bot');
-  32 | 
-  33 |   console.log('Clicking Create button...');
-  34 |   await page.locator('button:has-text("Create")').last().click();
-  35 | 
-  36 |   console.log('Waiting for Actions panel...');
-  37 |   await expect(page.locator('text=Actions')).toBeVisible({ timeout: 30000 });
-  38 | 
-  39 |   // Add Message Box action with configuration
-  40 |   const testMessage = 'Hello from Automation Anywhere Test!';
-  41 |   await taskBot.addMessageBoxAction(testMessage);
-  42 | 
-  43 |   // Verify the message box action was added to the canvas
-  44 |   await expect(page.locator('text=Message Box')).toBeVisible();
-  45 | 
-  46 |   await taskBot.saveTask();
-  47 | 
-  48 |   await expect(taskBot.successMsg).toBeVisible();
-  49 | 
-  50 |   console.log('Message Box task created and configured successfully');
-  51 | });
+  24 |   await taskBot.saveTask();
+  25 | 
+  26 |   await expect(taskBot.successMsg).toBeVisible();
+  27 | 
+  28 |   console.log('✅ Message Box task created and configured successfully');
+  29 | });
 ```

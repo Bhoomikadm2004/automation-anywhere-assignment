@@ -87,8 +87,3 @@ export class TaskBotPage {
     }
   }
 }
-
-  async saveTask() {
-    await this.saveBtn.click();
-  }
-}
