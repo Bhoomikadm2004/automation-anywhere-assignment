@@ -1,0 +1,16 @@
+🔍 Navigating to login page...
+
+📝 Found 5 input fields:
+  [0] type="text" | name="_auto_complete_" | id="null" | placeholder="null"
+  [1] type="text" | name="username" | id=":r2:" | placeholder="null"
+  [2] type="password" | name="password" | id=":r3:" | placeholder="null"
+  [3] type="checkbox" | name="rememberUsername" | id="null" | placeholder="null"
+  [4] type="submit" | name="null" | id="null" | placeholder="null"
+
+🔘 Found 4 buttons:
+  [0] type="button" | text="English"
+  [1] type="button" | text=""
+  [2] type="submit" | text="Log in"
+  [3] type="button" | text="Forgot password?"
+
+📸 Screenshot saved to debug-login-page.png

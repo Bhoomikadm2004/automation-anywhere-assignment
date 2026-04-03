@@ -1,0 +1,17 @@
+{
+  "name": "automation-anywhere-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-fail": "npx playwright test tests/formUpload.spec.js tests/messageBox.spec.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
