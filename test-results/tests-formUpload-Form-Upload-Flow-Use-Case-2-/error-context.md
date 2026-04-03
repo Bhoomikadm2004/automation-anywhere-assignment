@@ -14,370 +14,1175 @@
 ```
 TimeoutError: locator.click: Timeout 10000ms exceeded.
 Call log:
-  - waiting for locator('text=Form').first()
-    - locator resolved to <div class="homepage-welcome-tagline">WORLD’S #1 DIGITAL WORKFORCE PLATFORM</div>
+  - waiting for locator('button:has-text("Create")').first()
+    - locator resolved to <button tabindex="0" type="button" data-input-status="INTERACTIVE" class="rio-focus rio-focus--inset_negative-2px rio-focus--border-radius_4px rio-focus--has_element-focus-visible command-button__button command-button__button--primary g-reset-element command-button__button--is_clickable command-button__button--is_solid">…</button>
   - attempting click action
     2 × waiting for element to be visible, enabled and stable
       - element is visible, enabled and stable
       - scrolling into view if needed
       - done scrolling
-      - <div data-path="ModalForm" data-modal-ready="true" data-modal-loading="false" data-modal-working="false" data-modal-id="repository-action-taskbot-create" class="modal-form g-reset-element g-box-sizing_border-box css-custom-properties--2">…</div> from <div dir="ltr" role="dialog" tabindex="-1" aria-modal="true">…</div> subtree intercepts pointer events
+      - <div class="modal-form__content g-reset-element repositoryactiontaskbotcreate">…</div> from <div dir="ltr" role="dialog" tabindex="-1" aria-modal="true">…</div> subtree intercepts pointer events
     - retrying click action
     - waiting 20ms
     2 × waiting for element to be visible, enabled and stable
       - element is visible, enabled and stable
       - scrolling into view if needed
       - done scrolling
-      - <div data-path="ModalForm" data-modal-ready="true" data-modal-loading="false" data-modal-working="false" data-modal-id="repository-action-taskbot-create" class="modal-form g-reset-element g-box-sizing_border-box css-custom-properties--2">…</div> from <div dir="ltr" role="dialog" tabindex="-1" aria-modal="true">…</div> subtree intercepts pointer events
+      - <div class="loadable__overlay">…</div> from <div dir="ltr" role="dialog" tabindex="-1" aria-modal="true">…</div> subtree intercepts pointer events
     - retrying click action
       - waiting 100ms
-    17 × waiting for element to be visible, enabled and stable
-       - element is visible, enabled and stable
-       - scrolling into view if needed
-       - done scrolling
-       - <div data-path="ModalForm" data-modal-ready="true" data-modal-loading="false" data-modal-working="false" data-modal-id="repository-action-taskbot-create" class="modal-form g-reset-element g-box-sizing_border-box css-custom-properties--2">…</div> from <div dir="ltr" role="dialog" tabindex="-1" aria-modal="true">…</div> subtree intercepts pointer events
-     - retrying click action
-       - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="loadable__overlay">…</div> from <div dir="ltr" role="dialog" tabindex="-1" aria-modal="true">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="modal-form__content g-reset-element repositoryactiontaskbotcreate">…</div> from <div dir="ltr" role="dialog" tabindex="-1" aria-modal="true">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
 
 ```
 
 # Page snapshot
 
 ```yaml
-- generic [ref=e1]:
-  - generic [ref=e5]:
-    - navigation [ref=e7]:
-      - img
-      - img
-      - img
-      - navigation [ref=e8]:
-        - list [ref=e9]:
-          - listitem [ref=e10]:
-            - link [ref=e11] [cursor=pointer]:
-              - /url: "#/home"
-              - generic [ref=e14]: 
-              - generic [ref=e15]: Explore
-          - listitem [ref=e16]:
-            - link [ref=e17] [cursor=pointer]:
-              - /url: "#/dashboard"
-              - generic [ref=e20]: 
-              - generic [ref=e21]: Home
-          - listitem [ref=e22]:
-            - link [ref=e23] [cursor=pointer]:
-              - /url: "#/bots/repository"
-              - generic [ref=e26]: 
-              - generic [ref=e27]: Automation
-          - listitem [ref=e28]:
-            - button [ref=e29] [cursor=pointer]:
-              - generic [ref=e32]: 
-              - generic [ref=e34]: 
-              - generic [ref=e35]: AI
-            - listitem [ref=e36]:
-              - link [ref=e37] [cursor=pointer]:
-                - /url: "#/modules/cognitive/iqbot/pages/learning-instances"
-                - generic [ref=e39]: Document Automation
-          - listitem [ref=e40]:
-            - button [ref=e41] [cursor=pointer]:
-              - generic [ref=e44]: 
-              - generic [ref=e46]: 
-              - generic [ref=e47]: Activity
-            - listitem [ref=e48]:
-              - link [ref=e49] [cursor=pointer]:
-                - /url: "#/activity/inprogress"
-                - generic [ref=e51]: In progress
-            - listitem [ref=e52]:
-              - link [ref=e53] [cursor=pointer]:
-                - /url: "#/activity/historical"
-                - generic [ref=e55]: Historical
-            - listitem [ref=e56]
-            - listitem [ref=e57]:
-              - link [ref=e58] [cursor=pointer]:
-                - /url: /botinsight/
-                - generic [ref=e60]: Insights
-                - generic [ref=e61]: 
-          - listitem [ref=e62]:
-            - button [ref=e63] [cursor=pointer]:
-              - generic [ref=e66]: 
-              - generic [ref=e68]: 
-              - generic [ref=e69]: Manage
-            - listitem [ref=e70]:
-              - link [ref=e71] [cursor=pointer]:
-                - /url: "#/devices/mydevices"
-                - generic [ref=e73]: Devices
-            - listitem [ref=e74]
-            - listitem [ref=e75]:
-              - link [ref=e76] [cursor=pointer]:
-                - /url: "#/bots/globalvalues"
-                - generic [ref=e78]: Global values
-            - listitem [ref=e79]:
-              - link [ref=e80] [cursor=pointer]:
-                - /url: "#/bots/credentials"
-                - generic [ref=e82]: Credentials
-            - listitem [ref=e83]:
-              - link [ref=e84] [cursor=pointer]:
-                - /url: "#/bots/packages"
-                - generic [ref=e86]: Packages
-          - listitem [ref=e87]:
-            - button [ref=e88] [cursor=pointer]:
-              - generic [ref=e91]: 
-              - generic [ref=e93]: 
-              - generic [ref=e94]: Administration
-            - listitem [ref=e95]:
-              - link [ref=e96] [cursor=pointer]:
-                - /url: "#/admin/users"
-                - generic [ref=e98]: Users
-      - navigation [ref=e99]:
-        - button [ref=e102] [cursor=pointer]:
-          - generic [ref=e106]: BC
-          - generic [ref=e107]: bhoomikadm2004@gmail.com
-        - generic [ref=e108]:
-          - button [expanded] [ref=e109] [cursor=pointer]
-          - button [ref=e111] [cursor=pointer]:
-            - generic [ref=e112]:
-              - generic: 
-          - button [ref=e114] [cursor=pointer]:
-            - generic [ref=e115]:
-              - img:
-                - generic: 
-                - generic:
-                  - generic:
-                    - img
-    - generic [ref=e116]:
-      - banner [ref=e117]:
-        - generic [ref=e118]:
-          - generic [ref=e120]: 
-          - generic [ref=e121]:
-            - link [ref=e122] [cursor=pointer]:
-              - /url: https://info.automationanywhere.com/community-edition-upgrade.html
-              - text: Upgrade to Enterprise
-            - generic [ref=e123]: 
-            - text: Advanced automation capabilities to unleash your organization’s full potential.
-          - generic [ref=e125] [cursor=pointer]: 
-      - main [ref=e127]:
-        - generic [ref=e129]:
-          - generic [ref=e130]: HELLO, HUMAN™
-          - generic [ref=e131]: WELCOME TO AUTOMATION ANYWHERE COMMUNITY EDITION
-          - generic [ref=e132]: "WORLD’S #1 DIGITAL WORKFORCE PLATFORM"
-        - generic [ref=e133]:
-          - generic [ref=e135]:
-            - text: Get started with free pre-built bots.
-            - link [ref=e136] [cursor=pointer]:
-              - /url: https://www.automationanywhere.com/products/community-edition/bots
-              - generic [ref=e137]: Learn more
-              - generic [ref=e138]: 
-          - generic [ref=e140]:
-            - generic [ref=e142]:
-              - generic:
-                - img
-              - generic [ref=e143]: ROBOTIC PROCESS AUTOMATION
-              - generic [ref=e144]: COMMUNITY EDITION
-              - generic [ref=e146]: Bots that automate repetitive business process at scale both on-premise and in the cloud
-              - button [ref=e149] [cursor=pointer]:
-                - generic [ref=e151]: Create a bot…
-            - generic [ref=e153]:
-              - generic:
-                - img
-              - generic [ref=e154]: COGNITIVE AUTOMATION
-              - generic [ref=e155]: DOCUMENT AUTOMATION
-              - generic [ref=e157]: Document Automation uses the power of cloud and AI to quickly extract and embed document data into the flow of work helping businesses move faster.
-              - button [ref=e160] [cursor=pointer]:
-                - generic [ref=e162]: Open Document Automation
-            - generic [ref=e164]:
-              - generic:
-                - img
-              - generic [ref=e165]: ANALYTICS
-              - generic [ref=e166]: BOT INSIGHT
-              - generic [ref=e168]: Embedded analytics that measure and predict how both bots and business are performing
-              - button [ref=e171] [cursor=pointer]:
-                - generic [ref=e173]: Open Bot Insight
-            - generic [ref=e175]:
-              - generic:
-                - img
-              - generic [ref=e176]: DIGITAL ASSISTANT AT WORK
-              - generic [ref=e177]: Automation Co-Pilot
-              - generic [ref=e179]: Easy to use interface to connect humans and bots.
-              - button [ref=e182] [cursor=pointer]:
-                - generic [ref=e184]: Open Automation Co-Pilot
-  - dialog:
-    - generic [ref=e187]:
-      - banner [ref=e188]:
-        - heading "Create Task Bot Cancel Create & edit" [level=1] [ref=e189]:
-          - generic [ref=e190]:
-            - generic [ref=e192]: Create Task Bot
-            - generic [ref=e194]:
-              - generic:
-                - generic:
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner
+      - generic [ref=e5]:
+        - navigation [ref=e7]:
+          - img "Community Edition"
+          - img "Community Edition"
+          - img "Community Edition"
+          - navigation [ref=e8]:
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - link "Explore" [ref=e11] [cursor=pointer]:
+                  - /url: "#/home"
+                  - generic "Explore" [ref=e14]: 
+                  - generic [ref=e15]: Explore
+              - listitem [ref=e16]:
+                - link "Home" [ref=e17] [cursor=pointer]:
+                  - /url: "#/dashboard"
+                  - generic "Home" [ref=e20]: 
+                  - generic [ref=e21]: Home
+              - listitem [ref=e22]:
+                - link "Automation" [ref=e23] [cursor=pointer]:
+                  - /url: "#/bots/repository"
+                  - generic "Automation" [ref=e26]: 
+                  - generic [ref=e27]: Automation
+              - listitem [ref=e28]:
+                - button "AI" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e32]: 
+                  - generic [ref=e34]: 
+                  - generic [ref=e35]: AI
+                - list:
+                  - listitem [ref=e36]:
+                    - link "Document Automation" [ref=e37] [cursor=pointer]:
+                      - /url: "#/modules/cognitive/iqbot/pages/learning-instances"
+                      - generic [ref=e39]: Document Automation
+              - listitem [ref=e40]:
+                - button "Activity" [ref=e41] [cursor=pointer]:
+                  - generic [ref=e44]: 
+                  - generic "Activity" [ref=e46]: 
+                  - generic [ref=e47]: Activity
+                - list:
+                  - listitem [ref=e48]:
+                    - link "In progress" [ref=e49] [cursor=pointer]:
+                      - /url: "#/activity/inprogress"
+                      - generic [ref=e51]: In progress
+                  - listitem [ref=e52]:
+                    - link "Historical" [ref=e53] [cursor=pointer]:
+                      - /url: "#/activity/historical"
+                      - generic [ref=e55]: Historical
+                  - listitem
+                  - listitem [ref=e56]:
+                    - link "Insights" [ref=e57] [cursor=pointer]:
+                      - /url: /botinsight/
+                      - generic [ref=e59]: Insights
+                      - generic "Open in new window" [ref=e60]: 
+              - listitem [ref=e61]:
+                - button "Manage" [ref=e62] [cursor=pointer]:
+                  - generic [ref=e65]: 
+                  - generic "Manage" [ref=e67]: 
+                  - generic [ref=e68]: Manage
+                - list:
+                  - listitem [ref=e69]:
+                    - link "Devices" [ref=e70] [cursor=pointer]:
+                      - /url: "#/devices/mydevices"
+                      - generic [ref=e72]: Devices
+                  - listitem
+                  - listitem [ref=e73]:
+                    - link "Global values" [ref=e74] [cursor=pointer]:
+                      - /url: "#/bots/globalvalues"
+                      - generic [ref=e76]: Global values
+                  - listitem [ref=e77]:
+                    - link "Credentials" [ref=e78] [cursor=pointer]:
+                      - /url: "#/bots/credentials"
+                      - generic [ref=e80]: Credentials
+                  - listitem [ref=e81]:
+                    - link "Packages" [ref=e82] [cursor=pointer]:
+                      - /url: "#/bots/packages"
+                      - generic [ref=e84]: Packages
+              - listitem [ref=e85]:
+                - button "Administration" [ref=e86] [cursor=pointer]:
+                  - generic [ref=e89]: 
+                  - generic "Administration" [ref=e91]: 
+                  - generic [ref=e92]: Administration
+                - list:
+                  - listitem [ref=e93]:
+                    - link "Users" [ref=e94] [cursor=pointer]:
+                      - /url: "#/admin/users"
+                      - generic [ref=e96]: Users
+          - navigation [ref=e97]:
+            - button "BC bhoomikadm2004@gmail.com" [ref=e100] [cursor=pointer]:
+              - generic [ref=e104]: BC
+              - generic [ref=e105]: bhoomikadm2004@gmail.com
+            - generic [ref=e106]:
+              - button "" [ref=e108] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - generic "Help center": 
+              - button "Device Settings" [ref=e111] [cursor=pointer]:
+                - generic [ref=e112]:
+                  - img "Device Settings":
+                    - generic: 
+                    - generic:
+                      - generic:
+                        - img
+              - button "Expand" [ref=e113] [cursor=pointer]
+        - generic [ref=e114]:
+          - banner [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e118]: 
+              - generic [ref=e119]:
+                - link "Upgrade to Enterprise" [ref=e120] [cursor=pointer]:
+                  - /url: https://info.automationanywhere.com/community-edition-upgrade.html
+                - generic "Open in new window" [ref=e121]: 
+                - text: Advanced automation capabilities to unleash your organization’s full potential.
+              - generic [ref=e123] [cursor=pointer]: 
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - generic [ref=e131]:
                   - generic:
                     - generic:
-                      - button:
+                      - button "":
                         - generic: 
-          - generic [ref=e195]:
-            - button "Cancel" [ref=e197] [cursor=pointer]:
-              - generic [ref=e199]: Cancel
-            - button "Create & edit" [ref=e201] [cursor=pointer]:
-              - generic [ref=e203]: Create & edit
-      - generic [ref=e209]:
-        - generic [ref=e211]: Use a Task Bot for desktop and cloud applications. It can be invoked from a Process or another Task Bot.
-        - generic [ref=e212]:
-          - generic [ref=e216]:
-            - generic [ref=e219]: Platform
-            - generic [ref=e221]:
-              - region "Keyboard focus boundary"
-              - radiogroup [ref=e222]:
-                - radio "Windows" [ref=e223] [cursor=pointer]:
-                  - generic [ref=e226]: Windows
-                - radio "macOS" [ref=e227] [cursor=pointer]:
-                  - generic [ref=e230]: macOS
-          - generic [ref=e231]:
-            - generic [ref=e234]:
-              - generic [ref=e237]: Name
-              - generic [ref=e240]:
-                - region "Keyboard focus boundary"
-                - textbox "Name" [active] [ref=e241]:
-                  - /placeholder: Required
-                  - text: Untitled
-              - generic [ref=e242]: Maximum = 50 characters
-            - generic [ref=e245]:
-              - generic [ref=e248]: Description (optional)
-              - generic [ref=e251]:
-                - region "Keyboard focus boundary"
-                - textbox "Description (optional)" [ref=e252]
-              - generic [ref=e253]: Maximum = 255 characters
-        - generic [ref=e254]:
-          - generic [ref=e257]: Folder
-          - generic [ref=e259]:
-            - generic [ref=e261]:
-              - generic [ref=e264]: 
-              - generic [ref=e265]:
-                - region "Keyboard focus boundary"
-                - textbox "Required" [ref=e266]: \Bots
-              - generic [ref=e269]:
-                - region "Keyboard focus boundary"
-                - button "Show details" [ref=e270] [cursor=pointer]:
-                  - generic [ref=e271]: 
-            - button "Choose…" [ref=e273] [cursor=pointer]
+                  - generic [ref=e133]:
+                    - generic [ref=e134]:
+                      - generic [ref=e136]:
+                        - generic [ref=e137]: 
+                        - generic [ref=e139]: Test Form_1775226867333
+                      - generic: …
+                    - generic [ref=e141]: New
+                    - button "Edit" [ref=e143] [cursor=pointer]:
+                      - generic [ref=e144]: 
+                - generic [ref=e146]:
+                  - generic [ref=e148]:
+                    - generic:
+                      - generic:
+                        - button "Assistant" [ref=e152] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e154]: Assistant
+                        - button "Co-Pilot" [ref=e158] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e160]: Co-Pilot
+                        - button "Run" [ref=e165] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e167]: Run
+                        - button "Debug" [ref=e171] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e173]: Debug
+                        - button "Run-time options" [ref=e178] [cursor=pointer]:
+                          - generic [ref=e179]: 
+                    - button "" [ref=e185] [cursor=pointer]:
+                      - generic [ref=e186]: 
+                  - generic [ref=e187]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Assistant" [ref=e191] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Co-Pilot" [ref=e195] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Run" [ref=e200] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Debug" [ref=e204] [cursor=pointer]:
+                            - generic:
+                              - generic: 
+                          - button "Run-time options" [ref=e209] [cursor=pointer]:
+                            - generic [ref=e210]: 
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "":
+                                - generic: 
+              - generic [ref=e212]:
+                - button "Close" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e216]: Close
+                - generic [ref=e217]:
+                  - button "Save" [ref=e218]:
+                    - generic [ref=e220]: Save
+                  - button "" [ref=e221] [cursor=pointer]:
+                    - generic [ref=e222]: 
+            - generic [ref=e230]:
+              - generic [ref=e232]:
+                - generic [ref=e234]:
+                  - banner [ref=e235] [cursor=pointer]:
+                    - button "Variables" [ref=e237]:
+                      - generic [ref=e238]:
+                        - generic [ref=e240]: Variables
+                        - generic: Show
+                  - generic [ref=e241]:
+                    - generic [ref=e242]:
+                      - button " Your variables" [expanded] [ref=e243] [cursor=pointer]:
+                        - generic:
+                          - generic: 
+                        - generic [ref=e245]: Your variables
+                      - generic [ref=e246]:
+                        - button " SampleNumber" [ref=e249]:
+                          - generic [ref=e251]: 
+                          - generic [ref=e253]: SampleNumber
+                        - button " SampleString" [ref=e256]:
+                          - generic [ref=e258]: 
+                          - generic [ref=e260]: SampleString
+                    - generic [ref=e261]:
+                      - button "Predefined variables" [ref=e262]:
+                        - generic:
+                          - generic: Predefined variables
+                      - generic [ref=e263]:
+                        - button " A2019DemoPackage" [ref=e265] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e267]: A2019DemoPackage
+                        - button " A2019DemoPackage" [ref=e269] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e271]: A2019DemoPackage
+                        - button " Clipboard" [ref=e273] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e275]: Clipboard
+                        - button " String" [ref=e277] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e279]: String
+                        - button " System" [ref=e281] [cursor=pointer]:
+                          - generic:
+                            - generic: 
+                          - generic [ref=e283]: System
+                - generic [ref=e285]:
+                  - banner [ref=e286]:
+                    - button "Actions" [expanded] [ref=e288]:
+                      - generic [ref=e289]:
+                        - generic [ref=e291]: Actions
+                        - generic: Show
+                    - textbox [ref=e294]:
+                      - /placeholder: Search actions
+                  - generic [ref=e296]:
+                    - button " A2019DemoPackage" [ref=e298] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e300]: A2019DemoPackage
+                    - button " A2019DemoPackage" [ref=e302] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e304]: A2019DemoPackage
+                    - button " Active Directory" [ref=e306] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e308]: Active Directory
+                    - button " AI" [ref=e310] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e312]: AI
+                    - button " AI Skill" [ref=e314] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e316]: AI Skill
+                    - button " Analyze" [ref=e318] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e320]: Analyze
+                    - button " App integration" [ref=e322] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e324]: App integration
+                    - button " Application" [ref=e326] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e328]: Application
+                    - button " AWS Comprehend NLP" [ref=e330] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e332]: AWS Comprehend NLP
+                    - button " AWS Comprehend NLP (Beta)" [ref=e334] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e336]: AWS Comprehend NLP (Beta)
+                    - button " AWS EC2" [ref=e338] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e340]: AWS EC2
+                    - button " Boolean" [ref=e342] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e344]: Boolean
+                    - button " Bot Migration" [ref=e346] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e348]: Bot Migration
+                    - button " Browser" [ref=e350] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e352]: Browser
+                    - button " Clipboard" [ref=e354] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e356]: Clipboard
+                    - button " Comment" [ref=e358] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e360]: Comment
+                    - button " Credential" [ref=e362] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e364]: Credential
+                    - button " Credential Manager" [ref=e366] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e368]: Credential Manager
+                    - button " CSV/TXT" [ref=e370] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e372]: CSV/TXT
+                    - button " Currency Conversion" [ref=e374] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e376]: Currency Conversion
+                    - button " Data Table" [ref=e378] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e380]: Data Table
+                    - button " Database" [ref=e382] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e384]: Database
+                    - button " Datetime" [ref=e386] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e388]: Datetime
+                    - button " Delay" [ref=e390] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e392]: Delay
+                    - button " Dictionary" [ref=e394] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e396]: Dictionary
+                    - button " DLL" [ref=e398] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e400]: DLL
+                    - button " Document Extraction" [ref=e402] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e404]: Document Extraction
+                    - button " Document Extractor" [ref=e406] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e408]: Document Extractor
+                    - button " Email" [ref=e410] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e412]: Email
+                    - button " Error handler" [ref=e414] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e416]: Error handler
+                    - button " Excel advanced" [ref=e418] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e420]: Excel advanced
+                    - button " Excel basic" [ref=e422] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e424]: Excel basic
+                    - button " File" [ref=e426] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e428]: File
+                    - button " FileUpload" [ref=e430] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e432]: FileUpload
+                    - button " Folder" [ref=e434] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e436]: Folder
+                    - button " Ftp/Sftp" [ref=e438] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e440]: Ftp/Sftp
+                    - button " Fuzzy Match" [ref=e442] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e444]: Fuzzy Match
+                    - button " G-Suite Apps" [ref=e446] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e448]: G-Suite Apps
+                    - button " G-Suite Apps (Beta)" [ref=e450] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e452]: G-Suite Apps (Beta)
+                    - button " Generative AI" [ref=e454] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e456]: Generative AI
+                    - button " Genesys" [ref=e458] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e460]: Genesys
+                    - button " Google Application Integration" [ref=e462] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e464]: Google Application Integration
+                    - button " Google Calendar" [ref=e466] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e468]: Google Calendar
+                    - button " Google Calendar (Beta)" [ref=e470] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e472]: Google Calendar (Beta)
+                    - button " Google Document AI" [ref=e474] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e476]: Google Document AI
+                    - button " Google Drive" [ref=e478] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e480]: Google Drive
+                    - button " Google Drive (Beta)" [ref=e482] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e484]: Google Drive (Beta)
+                    - button " Google Sheets" [ref=e486] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e488]: Google Sheets
+                    - button " Google Sheets (Beta)" [ref=e490] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e492]: Google Sheets (Beta)
+                    - button " IBM Watson Authentication (Beta)" [ref=e494] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e496]: IBM Watson Authentication (Beta)
+                    - button " IBM Watson Speech to Text (Beta)" [ref=e498] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e500]: IBM Watson Speech to Text (Beta)
+                    - button " If" [ref=e502] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e504]: If
+                    - button " Image Recognition" [ref=e506] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e508]: Image Recognition
+                    - button " Interactive forms" [ref=e510] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e512]: Interactive forms
+                    - button " Interrupt handler" [ref=e514] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e516]: Interrupt handler
+                    - button " IQ Bot" [ref=e518] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e520]: IQ Bot
+                    - button " IQ Bot [Local Device]" [ref=e522] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e524]: IQ Bot [Local Device]
+                    - button " IQ Bot Extraction" [ref=e526] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e528]: IQ Bot Extraction
+                    - button " IQ Bot Extraction360 [Preview]" [ref=e530] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e532]: IQ Bot Extraction360 [Preview]
+                    - button " IQ Bot Pre-processor" [ref=e534] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e536]: IQ Bot Pre-processor
+                    - button " JavaScript" [ref=e538] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e540]: JavaScript
+                    - button " JSON Object Manager" [ref=e542] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e544]: JSON Object Manager
+                    - button " JSON utilities" [ref=e546] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e548]: JSON utilities
+                    - button " JSONParser" [ref=e550] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e552]: JSONParser
+                    - button " Legacy AISense" [ref=e554] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e556]: Legacy AISense
+                    - button " Legacy automation" [ref=e558] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e560]: Legacy automation
+                    - button " List" [ref=e562] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e564]: List
+                    - button " Logging" [ref=e566] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e568]: Logging
+                    - button " Loop" [ref=e570] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e572]: Loop
+                    - button " Message box" [ref=e574] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e576]: Message box
+                    - button " Microsoft 365 Calendar" [ref=e578] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e580]: Microsoft 365 Calendar
+                    - button " Microsoft 365 Excel" [ref=e582] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e584]: Microsoft 365 Excel
+                    - button " Microsoft 365 OneDrive" [ref=e586] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e588]: Microsoft 365 OneDrive
+                    - button " Microsoft 365 Outlook" [ref=e590] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e592]: Microsoft 365 Outlook
+                    - button " Microsoft LUIS NLP (Beta)" [ref=e594] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e596]: Microsoft LUIS NLP (Beta)
+                    - button " Microsoft Teams" [ref=e598] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e600]: Microsoft Teams
+                    - button " ML - Microsoft Anomaly Detection" [ref=e602] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic "ML - Microsoft Anomaly Detection" [ref=e604]
+                    - button " Mouse" [ref=e606] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e608]: Mouse
+                    - button " MS Word" [ref=e610] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e612]: MS Word
+                    - button " Number" [ref=e614] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e616]: Number
+                    - button " NumberUtils" [ref=e618] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e620]: NumberUtils
+                    - button " OCR" [ref=e622] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e624]: OCR
+                    - button " One Drive" [ref=e626] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e628]: One Drive
+                    - button " OpenAI" [ref=e630] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e632]: OpenAI
+                    - button " PDF" [ref=e634] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e636]: PDF
+                    - button " PDFUtils" [ref=e638] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e640]: PDFUtils
+                    - button " PGP" [ref=e642] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e644]: PGP
+                    - button " Pipeline Accelerator" [ref=e646] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e648]: Pipeline Accelerator
+                    - button " Play Sound" [ref=e650] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e652]: Play Sound
+                    - button " Printer" [ref=e654] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e656]: Printer
+                    - button " Process Composer" [ref=e658] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e660]: Process Composer
+                    - button " Process Discovery" [ref=e662] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e664]: Process Discovery
+                    - button " Prompt" [ref=e666] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e668]: Prompt
+                    - button " Python script" [ref=e670] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e672]: Python script
+                    - button " Record" [ref=e674] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e676]: Record
+                    - button " Recorder" [ref=e678] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e680]: Recorder
+                    - button " REST Web Services" [ref=e682] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e684]: REST Web Services
+                    - button " Salesforce" [ref=e686] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e688]: Salesforce
+                    - button " SAP" [ref=e690] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e692]: SAP
+                    - button " SAP BAPI" [ref=e694] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e696]: SAP BAPI
+                    - button " SAP2" [ref=e698] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e700]: SAP2
+                    - button " Screen" [ref=e702] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e704]: Screen
+                    - button " Service" [ref=e706] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e708]: Service
+                    - button " ServiceNow" [ref=e710] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e712]: ServiceNow
+                    - button " SharePoint" [ref=e714] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e716]: SharePoint
+                    - button " Simulate keystrokes" [ref=e718] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e720]: Simulate keystrokes
+                    - button " SNMP" [ref=e722] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e724]: SNMP
+                    - button " SOAP Web Service" [ref=e726] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e728]: SOAP Web Service
+                    - button " Step" [ref=e730] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e732]: Step
+                    - button " String" [ref=e734] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e736]: String
+                    - button " System" [ref=e738] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e740]: System
+                    - button " Task Bot" [ref=e742] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e744]: Task Bot
+                    - button " Teknei" [ref=e746] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e748]: Teknei
+                    - button " Terminal Emulator" [ref=e750] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e752]: Terminal Emulator
+                    - button " Text file" [ref=e754] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e756]: Text file
+                    - button " Trigger loop" [ref=e758] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e760]: Trigger loop
+                    - button " UI Agent - Web" [ref=e762] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e764]: UI Agent - Web
+                    - button " Utils" [ref=e766] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e768]: Utils
+                    - button " V11 Task Bot" [ref=e770] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e772]: V11 Task Bot
+                    - button " VBScript" [ref=e774] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e776]: VBScript
+                    - button " Wait" [ref=e778] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e780]: Wait
+                    - button " Window" [ref=e782] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e784]: Window
+                    - button " Word" [ref=e786] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e788]: Word
+                    - button " Workday" [ref=e790] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e792]: Workday
+                    - button " Workload" [ref=e794] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e796]: Workload
+                    - button " XML" [ref=e798] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e800]: XML
+                - generic [ref=e802]:
+                  - banner [ref=e803] [cursor=pointer]:
+                    - button "Triggers" [ref=e805]:
+                      - generic [ref=e806]:
+                        - generic [ref=e808]: Triggers
+                        - generic: Show
+                  - generic [ref=e809]:
+                    - button " A2019DemoPackage" [ref=e811] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e813]: A2019DemoPackage
+                    - button " A2019DemoPackage" [ref=e815] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e817]: A2019DemoPackage
+                    - button " Email trigger" [ref=e819] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e821]: Email trigger
+                    - button " Files & folders" [ref=e823] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e825]: Files & folders
+                    - button " Hot key" [ref=e827] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e829]: Hot key
+                    - button " Interface trigger" [ref=e831] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e833]: Interface trigger
+                    - button " Microsoft 365 Outlook Trigger" [ref=e835] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e837]: Microsoft 365 Outlook Trigger
+                    - button " Process trigger" [ref=e839] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e841]: Process trigger
+                    - button " Service trigger" [ref=e843] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e845]: Service trigger
+                    - button " ServiceNow" [ref=e847] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e849]: ServiceNow
+                    - button " Window trigger" [ref=e851] [cursor=pointer]:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e853]: Window trigger
+              - button "Toggle palette" [expanded] [ref=e856] [cursor=pointer]:
+                - generic:
+                  - generic: 
+              - generic [ref=e858]:
+                - generic [ref=e861]:
+                  - generic [ref=e862]:
+                    - region "Keyboard focus boundary"
+                    - button "Start recording…" [ref=e863] [cursor=pointer]:
+                      - generic [ref=e864]: 
+                    - region "Keyboard focus boundary"
+                    - button "Find a file…" [ref=e866] [cursor=pointer]:
+                      - generic [ref=e867]: 
+                    - region "Keyboard focus boundary"
+                    - button "Search in this automation" [ref=e868] [cursor=pointer]:
+                      - generic [ref=e869]: 
+                    - region "Keyboard focus boundary"
+                    - button "Undo" [ref=e871]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Redo" [ref=e872]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Copy items" [ref=e874]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Cut items" [ref=e875]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Paste items" [ref=e876]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Remove items" [ref=e877]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Copy to shared clipboard" [ref=e879]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Paste from shared clipboard" [ref=e880]:
+                      - generic: 
+                    - region "Keyboard focus boundary"
+                    - button "Clear all breakpoints" [ref=e882]:
+                      - generic: 
+                  - tablist [ref=e884]:
+                    - tab "Flow" [selected] [ref=e885]
+                    - tab "List" [ref=e886] [cursor=pointer]
+                    - tab "Dual" [ref=e887] [cursor=pointer]
+                - generic [ref=e891]:
+                  - img
+                  - generic [ref=e893]:
+                    - generic:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e894]: Triggers
+                      - generic: Drag a trigger here…
+                    - generic:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e895]: Start
+                      - generic:
+                        - generic: Drag an action here or
+                      - button "Quick add" [ref=e897] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - generic: 
+                      - generic [ref=e898]: End
+                  - generic [ref=e899]:
+                    - region "Keyboard focus boundary"
+                    - button "Zoom fit" [ref=e900] [cursor=pointer]:
+                      - generic [ref=e901]: 
+                    - region "Keyboard focus boundary"
+                    - button "Zoom out" [ref=e902] [cursor=pointer]:
+                      - generic [ref=e903]: 
+                    - region "Keyboard focus boundary"
+                    - button "Zoom in" [ref=e904]:
+                      - generic: 
+                - generic [ref=e906]: Windows
+              - button "Toggle details" [expanded] [ref=e909] [cursor=pointer]:
+                - generic:
+                  - generic: 
+              - generic [ref=e911]:
+                - banner [ref=e912]:
+                  - generic [ref=e915]: Action details
+                - generic [ref=e917]: Select an action in the flow or list view to edit details
     - generic:
-      - tooltip "Show details":
+      - tooltip "Search in this automation ctrl F":
         - generic:
-          - generic: Show details
+          - generic:
+            - generic:
+              - generic: Search in this automation
+              - generic "ctrl F":
+                - generic: ctrl
+                - generic: F
         - img
-  - button "Open Resource Center, 9 new notification" [ref=e274] [cursor=pointer]:
-    - generic [ref=e276]: "9"
+      - tooltip "New":
+        - generic:
+          - generic: New
+        - img
+      - tooltip "New":
+        - generic:
+          - generic: New
+        - img
+      - tooltip "Run-time options":
+        - generic:
+          - generic: Run-time options
+        - img
+      - tooltip "Assistant":
+        - generic:
+          - generic: Assistant
+        - img
+      - tooltip "Co-Pilot":
+        - generic:
+          - generic: Co-Pilot
+        - img
+      - tooltip "Run":
+        - generic:
+          - generic: Run
+        - img
+      - tooltip "Debug":
+        - generic:
+          - generic: Debug
+        - img
+      - tooltip "Run-time options":
+        - generic:
+          - generic: Run-time options
+        - img
+      - tooltip "Undo ctrl Z":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Undo
+              - generic "ctrl Z":
+                - generic: ctrl
+                - generic: Z
+        - img
+      - tooltip "Redo ctrl Y":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Redo
+              - generic "ctrl Y":
+                - generic: ctrl
+                - generic: "Y"
+        - img
+      - tooltip "Copy items ctrl C":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Copy items
+              - generic "ctrl C":
+                - generic: ctrl
+                - generic: C
+        - img
+      - tooltip "Cut items ctrl X":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Cut items
+              - generic "ctrl X":
+                - generic: ctrl
+                - generic: X
+        - img
+      - tooltip "Paste items ctrl V":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Paste items
+              - generic "ctrl V":
+                - generic: ctrl
+                - generic: V
+        - img
+      - tooltip "Remove items delete":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Remove items
+              - generic "delete":
+                - generic: delete
+        - img
+      - tooltip "Copy to shared clipboard":
+        - generic:
+          - generic: Copy to shared clipboard
+        - img
+      - tooltip "Paste from shared clipboard":
+        - generic:
+          - generic: Paste from shared clipboard
+        - img
+      - tooltip "Clear all breakpoints shift F9":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Clear all breakpoints
+              - generic "shift F9":
+                - generic: shift
+                - generic: F9
+        - img
+      - tooltip "Zoom fit":
+        - generic:
+          - generic: Zoom fit
+        - img
+      - tooltip "Zoom out":
+        - generic:
+          - generic: Zoom out
+        - img
+      - tooltip "Zoom in":
+        - generic:
+          - generic: Zoom in
+        - img
+      - tooltip "Edit":
+        - generic:
+          - generic: Edit
+        - img
+      - tooltip "Edit":
+        - generic:
+          - generic: Edit
+        - img
+      - tooltip "Start recording… ctrl shift R":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Start recording…
+              - generic "ctrl shift R":
+                - generic: ctrl
+                - generic: shift
+                - generic: R
+        - img
+      - tooltip "Find a file… F3":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Find a file…
+              - generic "F3":
+                - generic: F3
+        - img
+      - tooltip "Quick add":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Quick add
+        - img
+  - button "Open Resource Center, 9 new notification" [ref=e918] [cursor=pointer]:
+    - generic [ref=e920]: "9"
 ```
 
 # Test source
 
 ```ts
-  1   | import { expect } from '@playwright/test';
-  2   | 
-  3   | export class FormPage {
-  4   |   constructor(page) {
-  5   |     this.page = page;
-  6   | 
-  7   |     // Navigation
-  8   |     this.automationMenu = page.locator('text=Automation, text=Automation Cloud').first();
-  9   | 
-  10  |     // Create form
-  11  |     this.createBtn = page.locator('button:has-text("Create")').first();
-  12  |     this.formOption = page.locator('text=Form').first();
-  13  | 
-  14  |     // Form details
-  15  |     this.formName = page.locator('input[name="name"], input[placeholder*="name" i]').first();
-  16  |     this.createConfirm = page.locator('button:has-text("Create")').last();
-  17  | 
-  18  |     // Left menu elements (widgets panel)
-  19  |     this.textBoxWidget = page.locator('[data-testid*="textbox"], text=Textbox, .widget-textbox').first();
-  20  |     this.fileUploadWidget = page.locator('[data-testid*="file"], text=Select File, .widget-file').first();
-  21  | 
-  22  |     // Canvas area
-  23  |     this.canvas = page.locator('.canvas, [data-testid="canvas"], .form-canvas').first();
-  24  | 
-  25  |     // Elements inside form builder (after drag/drop)
-  26  |     this.textBox = page.locator('input[type="text"]').first();
-  27  |     this.fileUpload = page.locator('input[type="file"]').first();
-  28  | 
-  29  |     // Right panel interactions
-  30  |     this.rightPanel = page.locator('.properties-panel, .right-panel').first();
-  31  | 
-  32  |     // Save & validation
-  33  |     this.saveBtn = page.locator('button:has-text("Save")').first();
-  34  |     this.uploadStatus = page.locator('text=uploaded, text=success, text=saved').first();
-  35  |   }
-  36  | 
-  37  |   async createForm(name) {
-  38  |     console.log('➡️ Creating form...');
-  39  | 
-  40  |     // Create button should already be visible from baseTest
-  41  |     console.log('➡️ Clicking Create button...');
-  42  |     await this.createBtn.waitFor({ state: 'visible', timeout: 10000 });
-  43  |     await this.createBtn.click();
-  44  | 
-  45  |     console.log('➡️ Selecting Form option...');
-  46  |     await this.formOption.waitFor({ state: 'visible', timeout: 10000 });
-> 47  |     await this.formOption.click();
-      |                           ^ TimeoutError: locator.click: Timeout 10000ms exceeded.
-  48  | 
-  49  |     console.log('➡️ Filling form name...');
-  50  |     await this.formName.waitFor({ state: 'visible', timeout: 10000 });
-  51  |     await this.formName.fill(name);
-  52  | 
-  53  |     console.log('➡️ Submitting form creation...');
-  54  |     await this.createConfirm.click();
-  55  | 
-  56  |     // Wait for form builder to load
-  57  |     await this.page.waitForTimeout(2000);
-  58  |   }
-  59  | 
-  60  |   async addElementsToCanvas() {
-  61  |     console.log('➡️ Adding form elements to canvas...');
-  62  |     // Note: Actual drag-and-drop implementation depends on the application's specific UI
-  63  |     // For now, we'll wait for the canvas to be ready
-  64  |     await this.page.waitForTimeout(1000);
-  65  |     console.log('✅ Canvas ready for element addition');
-  66  |   }
-  67  | 
-  68  |   async verifyUIInteractions() {
-  69  |     console.log('➡️ Verifying UI interactions...');
-  70  |     // Verify the form builder is loaded and functional
-  71  |     const formBuilder = this.page.locator('.form-builder, [data-testid="form-builder"]');
-  72  |     await formBuilder.waitFor({ state: 'attached', timeout: 10000 }).catch(() => {
-  73  |       console.log('Form builder not found with standard selectors, continuing anyway');
-  74  |     });
-  75  |     console.log('✅ UI interactions verified');
-  76  |   }
-  77  | 
-  78  |   async fillForm(text, filePath) {
-  79  |     console.log('➡️ Filling form fields...');
-  80  |     
-  81  |     // Try to fill textbox if it exists
-  82  |     try {
-  83  |       await this.textBox.waitFor({ state: 'visible', timeout: 5000 }).catch(() => null);
-  84  |       await this.textBox.fill(text);
-  85  |       console.log('✅ Textbox filled');
-  86  |     } catch (e) {
-  87  |       console.log('Textbox not found, skipping');
-  88  |     }
-  89  | 
-  90  |     // Try to upload file if file upload element exists
-  91  |     try {
-  92  |       await this.fileUpload.waitFor({ state: 'visible', timeout: 5000 }).catch(() => null);
-  93  |       await this.fileUpload.setInputFiles(filePath);
-  94  |       console.log('✅ File uploaded');
-  95  |     } catch (e) {
-  96  |       console.log('File upload element not found, skipping');
-  97  |     }
-  98  |   }
-  99  | 
-  100 |   async saveForm() {
-  101 |     console.log('➡️ Saving form...');
-  102 |     await this.saveBtn.waitFor({ state: 'visible', timeout: 10000 }).catch(() => {
-  103 |       console.log('Save button not found, form might auto-save');
-  104 |     });
-  105 |     try {
-  106 |       await this.saveBtn.click();
-  107 |     } catch (e) {
-  108 |       console.log('Could not click save button');
-  109 |     }
-  110 |   }
-  111 | }
+  1  | import { expect } from '@playwright/test';
+  2  | 
+  3  | export class FormPage {
+  4  |   constructor(page) {
+  5  |     this.page = page;
+  6  | 
+  7  |     // Navigation
+  8  |     this.automationMenu = page.locator('text=Automation, text=Automation Cloud').first();
+  9  | 
+  10 |     // Create form
+  11 |     this.createBtn = page.locator('button:has-text("Create")').first();
+  12 | 
+  13 |     // ✅ FIXED (ONLY TEXT SELECTOR)
+  14 |     this.formOption = page.locator('text=Form').last();
+  15 | 
+  16 |     // Form details
+  17 |     this.formName = page.locator('input[name="name"], input[placeholder*="name" i]').first();
+  18 |     this.createConfirm = page.locator('button:has-text("Create")').last();
+  19 | 
+  20 |     // Elements inside form builder
+  21 |     this.textBox = page.locator('input[type="text"]').first();
+  22 |     this.fileUpload = page.locator('input[type="file"]').first();
+  23 | 
+  24 |     // Save & validation
+  25 |     this.saveBtn = page.locator('button:has-text("Save")').first();
+  26 |     this.uploadStatus = page.locator('text=uploaded, text=success, text=saved').first();
+  27 |   }
+  28 | 
+  29 |   async createForm(name) {
+  30 |     console.log('➡️ Clicking Create button...');
+  31 | 
+  32 |     await this.createBtn.waitFor({ state: 'visible', timeout: 10000 });
+> 33 |     await this.createBtn.click();
+     |                          ^ TimeoutError: locator.click: Timeout 10000ms exceeded.
+  34 | 
+  35 |     console.log('➡️ Selecting Form option...');
+  36 | 
+  37 |     await this.page.waitForTimeout(2000);
+  38 | 
+  39 |     await this.formOption.waitFor({ state: 'visible', timeout: 10000 });
+  40 | 
+  41 |     // ✅ Force click (modal fix)
+  42 |     await this.formOption.click({ force: true });
+  43 | 
+  44 |     console.log('➡️ Filling form name...');
+  45 | 
+  46 |     await this.formName.waitFor({ state: 'visible', timeout: 10000 });
+  47 | 
+  48 |     const uniqueName = `${name}_${Date.now()}`;
+  49 |     await this.formName.fill(uniqueName);
+  50 | 
+  51 |     await this.createConfirm.click();
+  52 | 
+  53 |     console.log('✅ Form created:', uniqueName);
+  54 |   }
+  55 | 
+  56 |   async fillForm(text, filePath) {
+  57 |     console.log('➡️ Filling form fields...');
+  58 | 
+  59 |     try {
+  60 |       await this.textBox.waitFor({ state: 'visible', timeout: 5000 });
+  61 |       await this.textBox.fill(text);
+  62 |       console.log('✅ Textbox filled');
+  63 |     } catch {
+  64 |       console.log('⚠️ Textbox not found');
+  65 |     }
+  66 | 
+  67 |     try {
+  68 |       await this.fileUpload.waitFor({ state: 'visible', timeout: 5000 });
+  69 |       await this.fileUpload.setInputFiles(filePath);
+  70 |       console.log('✅ File uploaded');
+  71 |     } catch {
+  72 |       console.log('⚠️ File upload not found');
+  73 |     }
+  74 |   }
+  75 | 
+  76 |   async saveForm() {
+  77 |     console.log('➡️ Saving form...');
+  78 | 
+  79 |     try {
+  80 |       await this.saveBtn.waitFor({ state: 'visible', timeout: 10000 });
+  81 |       await this.saveBtn.click();
+  82 |       console.log('✅ Form saved');
+  83 |     } catch {
+  84 |       console.log('⚠️ Save button not clickable');
+  85 |     }
+  86 |   }
+  87 | }
 ```
